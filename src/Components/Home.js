@@ -1,5 +1,6 @@
 import React from 'react';
-import "./Home.css"
+import "./Home.css";
+import { Link } from 'react-router-dom';
 
 const HomePage = () => {
  
@@ -41,9 +42,26 @@ const HomePage = () => {
           <a className='social' href='https://www.facebook.com/'>Facebook</a>
         </div>
         </div>
-    <footer className='footer'>
-<h1>this is footer</h1>
-
+   
+        <footer className="footer-container">
+         <div className='both'>
+      <div className="links-container">
+        <Link to="/" className="link">Home</Link>
+        <Link to="/" className="link">About Us</Link>
+      
+        <Link to="/" className="link">Contact</Link>
+        <Link to="/" className="link">Our Clients</Link>
+      </div>
+      
+      <div className="social-links-container">
+        <a href="/" className="social-link">Facebook</a>
+        <a href="/" className="social-link">Twitter</a>
+        <a href="/" className="social-link">Instagram</a>
+      </div>
+      </div>
+      <div className="copyright-container">
+        <div className="copyright">&copy; 2023 GlobalOne Services</div>
+      </div>
     </footer>
 
 
