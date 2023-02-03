@@ -1,0 +1,52 @@
+.login-page {
+    display: flex;
+  align-content: space-around;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 40vh;
+    position: relative;
+    top: 140px;
+    
+  }
+  
+  .login-page-title {
+    font-size: 36px;
+    
+  }
+  
+  .error-message {
+    color: rgba(223, 31, 31, 0.985);
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    
+  }
+  .submit-button-1{
+    width: 85px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(50, 136, 186);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  .submit-button-1:hover {
+    background-color: blue;
+  }
+  
+ 
+  
+  .input-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 

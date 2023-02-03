@@ -1,0 +1,155 @@
+/* .signup-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+ height:100%;
+
+ 
+  }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  
+  .signup-page-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+  }*/
+  
+  .submit-button {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(35, 155, 195);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: blue;
+  }
+  input[type="date"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    outline: none;
+    font-style: italic;
+    font-weight: 200;
+  } 
+  
+  
+  
+
+   .signup-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+ height:100%;
+
+ 
+  }
+
+  button {
+    transform: scale(1);
+    transition: transform 0.3s ease-out;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+  }
+
+  
+   .register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    }
+    
+    .form-input {
+    margin-top: 20px;
+    padding: 10px;
+    width: 50%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+    
+    .submit-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(13, 147, 165);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+    
+    .message {
+    margin-top: 20px;
+    font-size: 16px;
+    color: green;
+    }
+    .form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1em;
+    }
+    
+    .form-input {
+      width: 100%;
+      padding: 0.5em;
+      margin-bottom: 1em;
+      border: 1px solid gray;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+    .input-field {
+      width: 300px;
+      height: 40px;
+      padding: 10px;
+      margin-bottom: 20px;
+      font-size: 1em;
+      border: 1px solid lightgray;
+      border-radius: 5px;
+    }
+    
+   
+    
+    .form-message {
+      margin-top: 1em;
+      font-size: 1em;
+      color: rgb(12, 10, 76);
+    }
+    
