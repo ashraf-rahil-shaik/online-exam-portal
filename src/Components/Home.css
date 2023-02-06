@@ -4,9 +4,7 @@
   
 }
 .about{
-background-color:rgba(40, 154, 220, 0.662);
-
-
+background-color:#2894cab4;
 display: flex;
 flex-wrap: wrap;
 flex-direction: column;
@@ -94,5 +92,30 @@ flex-wrap: wrap ;
 .head{
   font-weight: 500;
 }
+.footer-container  {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #c2bbbb;
+  color: #090909;
+  height: 20vh;
+}
 
+.both{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  margin-top: 30px;
+  align-items: center;
+}
+.links-container,.social-links-container{
+  display: flex;
+  justify-content: space-between;
+  width:30%;
+  align-items: center;
 
+}
+.copyright{
+  padding-left:40px;
+}
