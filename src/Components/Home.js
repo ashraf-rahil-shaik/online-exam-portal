@@ -24,7 +24,8 @@ const HomePage = () => {
     
 
 
-     </div> <img alt='kid' className='boy' src='https://globaloneservices.co.in/wp-content/uploads/2022/10/image-5.jpg'/>     <div className='contact-details'>
+     </div> <div className='kid'><img alt='kid' className='boy' src='https://globaloneservices.co.in/wp-content/uploads/2022/10/image-5.jpg'/></div>
+          <div className='contact-details'>
         <div className='contact'>
            <h1 className='head'>Contact</h1> 
            <p className='contact-para'>Office: (040) 66- 888-666</p>
