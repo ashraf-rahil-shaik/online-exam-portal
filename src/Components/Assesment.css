@@ -7,11 +7,12 @@
     justify-content: space-evenly;
     padding :70px;
     align-items: center ;
-    
+    background-color: #abaaaa20;
    }
   .card {
-    width: 400px;
     
+    width: 400px;
+   background-color: #fff;
     margin: 80px;
     display: flex;
     flex-direction: column;
@@ -26,8 +27,7 @@
     .card:hover {
     box-shadow: 0 0px 16px 8px rgba(0, 0, 0, 0.2);
     cursor: pointer;
-    background-image: linear-gradient(50deg,  #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%); 
-    transform: scale(1.05);
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);    transform: scale(1.05);
 }
 
   .card-title {
